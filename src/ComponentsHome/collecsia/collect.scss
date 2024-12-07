@@ -1,0 +1,66 @@
+.ConColl {
+    display: flex;
+    margin-bottom: 70px;
+    
+    .collect {
+        background-image: url(./imgColl/aaa.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 435px;
+        padding: 190px 13px;
+        display: flex;
+    }
+}
+
+.Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+    text-align: center;
+    .K2018 {
+        margin-bottom: 70px;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 36px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .line {
+            width: 120px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            display: flex;
+            width: 471px;
+            height: 173px;
+            background-color: #000;
+            color: #fff;
+
+        }
+
+        button {
+            border: 2px solid #fff;
+            background: transparent;
+            color: #fff;
+            padding: 12px 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            cursor: pointer;
+            &:hover {
+                background: #333;
+            }
+        }
+    }
+}

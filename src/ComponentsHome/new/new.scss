@@ -1,0 +1,21 @@
+.New{
+    padding: 120px 0;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+    }
+    .line{
+        width: 120px;
+    }
+    .grup{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px auto;
+    }
+}
+
+
